@@ -1,0 +1,445 @@
+.helpBlock{
+    display: flex;
+    padding:0 10px;
+    width: 100%; 
+    height: 100%;
+    margin-bottom: 50px;
+    background: linear-gradient( rgba(248, 243, 253, 0)) transparent;
+}
+.helpBlock1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    flex-direction: column;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding-top:100px;
+    padding-bottom:120px;   
+    padding-inline: 0;
+    transition: all 1s;
+}
+.helpBlock1.active{
+    opacity: 1;
+    transition: all 1s;
+}
+/* block1 */
+.helpTitles{
+    background: linear-gradient(180deg, #6D56B2 0%,#1CB2D3 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-fill-color: transparent !important;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 22px;
+}
+.helpBlock3{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.helpTitles1{
+    font-size: 52px;
+    margin-top: -40px;
+    font-family: 'Golos Text', sans-serif;
+    color: #272657;
+}
+/* block2 */
+.helpBlockMin1{
+    display: flex;
+    height: 54px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.helpBlock7{
+    padding: 8px 60px 8px 8px;
+}
+.helpTitles2{
+    font-size: 19px;
+    color: #272657;
+    font-family: 'Golos Text', sans-serif;
+}
+.helpBtn1{
+    font-size: 21px;
+    color: #272657;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.helpSpan1{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+}
+.helpBlock8{
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    transition: all 1s;
+    transform: translateY(-20px); 
+}
+.helpBlock8.active{
+    width: 750px;
+    height: 146px;
+    transition: all 1s;
+    transform: translateY(0px);
+    justify-content: space-between;
+}
+.helpText1{
+    font-size: 18px;
+    margin: 0px;
+    color: #64607D;
+    font-family: 'Golos Text', sans-serif;
+}
+/* block3 */
+.helpBlockMin2{
+    display: flex;
+    height: 54px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.helpBlock9{
+    padding: 8px 60px 8px 8px;
+}
+.helpTitles3{
+    font-size: 19px;
+    color: #272657;
+    font-family: 'Golos Text', sans-serif;
+}
+.helpBtn2{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.helpSpan3{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+}
+.helpBlock10{
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    transition: all 1s;
+    transform: translateY(-20px); 
+}
+.helpBlock10.active{
+    width: 750px;
+    height: 146px;
+    transition: all 1s;
+    transform: translateY(0px);
+    justify-content: space-between;
+}
+.helpText2{
+    font-size: 18px;
+    margin: 0px;
+    color: #64607D;
+    font-family: 'Golos Text', sans-serif;
+}
+/* block4 */
+.helpBlockMin3{
+    display: flex;
+    height: 54px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.helpBlock11{
+    padding: 8px 60px 8px 8px;
+}
+.helpTitles4{
+    font-size: 19px;
+    color: #272657;
+    font-family: 'Golos Text', sans-serif;
+}
+.helpBtn3{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.helpSpan4{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+}
+.helpBlock12{
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    transition: all 1s;
+    transform: translateY(-20px); 
+}
+.helpBlock12.active{
+    width: 740px;
+    height: 146px;
+    transition: all 1s;
+    transform: translateY(0px);
+    justify-content: space-between;
+}
+.helpText3{
+    font-size: 18px;
+    margin: 0px;
+    color: #64607D;
+    font-family: 'Golos Text', sans-serif;
+}
+/* block5 */
+.helpBlockMin4{
+    display: flex;
+    height: 54px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.helpBlock13{
+    padding: 8px 60px 8px 8px;
+}
+.helpTitles5{
+    font-size: 19px;
+    color: #272657;
+    font-family: 'Golos Text', sans-serif;
+}
+.helpBtn4{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.helpSpan5{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+}
+.helpBlock14{
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    transition: all 1s;
+    transform: translateY(-20px); 
+}
+.helpBlock14.active{
+    width: 730px;
+    height: 146px;
+    transition: all 1s;
+    transform: translateY(0px);
+    justify-content: space-between;
+}
+.helpText4{
+    font-size: 18px;
+    margin: 0px;
+    color: #64607D;
+    font-family: 'Golos Text', sans-serif;
+}
+/* block6 */
+.helpBlockMin5{
+    display: flex;
+    height: 54px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.helpBlock15{
+    padding: 8px 60px 8px 8px;
+}
+.helpTitles6{
+    font-size: 19px;
+    color: #272657;
+    font-family: 'Golos Text', sans-serif;
+}
+.helpBtn5{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.helpSpan6{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+}
+.helpBlock16{
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    transition: all 1s;
+    transform: translateY(-20px); 
+}
+.helpBlock16.active{
+    width: 750px;
+    height: 146px;
+    transition: all 1s;
+    transform: translateY(0px);
+    justify-content: space-between;
+}
+.helpText5{
+    font-size: 18px;
+    margin: 0px;
+    color: #64607D;
+    font-family: 'Golos Text', sans-serif;
+}
+/* block7 */
+.helpBlockMin6{
+    display: flex;
+    height: 54px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.helpBlock17{
+    padding: 8px 60px 8px 8px;
+}
+.helpTitles7{
+    font-size: 19px;
+    color: #272657;
+    font-family: 'Golos Text', sans-serif;
+}
+.helpBtn6{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.helpSpan7{
+    font-size: 21px;
+    color: #272657;
+    background: none;
+    border: none;
+}
+.helpBlock18{
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    transition: all 1s;
+    transform: translateY(-20px); 
+}
+.helpBlock18.active{
+    width: 750px;
+    height: 146px;
+    transition: all 1s;
+    transform: translateY(0px);
+    justify-content: space-between;
+}
+.helpText6{
+    font-size: 18px;
+    margin: 0px;
+    color: #64607D;
+    font-family: 'Golos Text', sans-serif;
+}
+
+@media(max-width:1150px){
+    .helpBlock1{
+        max-width: initial;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .helpBlock7 {
+        padding: 8px 10px 8px 8px;
+    }
+    .helpBlock9 {
+        padding: 8px 10px 8px 8px;
+    }
+    .helpBlock11 {
+        padding: 8px 10px 8px 8px;
+    }
+    .helpBlock13 {
+        padding: 8px 10px 8px 8px;
+    }
+    .helpBlock15 {
+        padding: 8px 10px 8px 8px;
+    }
+    .helpBlock17 {
+        padding: 8px 10px 8px 8px;
+    }
+}
+@media(max-width:870px){
+    .helpTitles1{
+        text-align: center;
+    }
+    .helpText1{
+        margin-right: 50px;
+    }
+    .helpBlock8{
+        width: 0px;
+        height: 0px;
+    }
+    .helpBlock8.active{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+    }
+    .helpText2{
+        margin-right: 50px;
+    }
+    .helpBlock10.active{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+    }
+    .helpBlock10{
+        width: 0px;
+        height: 0px;
+    }
+    .helpText3{
+        margin-right: 50px;
+    }
+    .helpBlock12.active{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+    }
+    .helpBlock12{
+        width: 0px;
+        height: 0px;
+    }
+    .helpText4{
+        margin-right: 50px;
+    }
+    .helpBlock14.active{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+    }
+    .helpBlock14{
+        width: 0px;
+        height: 0px;
+    }
+    .helpText5{
+        margin-right: 50px;
+    }
+    .helpBlock16.active{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+    }
+    .helpBlock16{
+        width: 0px;
+        height: 0px;
+    }
+    .helpText6{
+        margin-right: 50px;
+    }
+    .helpBlock18.active{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+    }
+    .helpBlock18{
+        width: 0px;
+        height: 0px;
+    }
+}

@@ -1,0 +1,235 @@
+.processBlock1{
+    margin-top: -20px;
+    padding: 0 10px;
+    display: flex;
+    background: #64607D;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #E4EDF5 0%, #E4EDF500 100%);
+}
+/* block1 */
+.processTitle1{
+    font-size: 22px;
+    font-family: Golos Text,sans-serif;
+    background: linear-gradient(180deg, #6D56B2 0%,#1CB2D3 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-fill-color: transparent !important;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(10px);
+}
+.processTitle1.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.processTitle2{
+    margin-top: -10px;
+    font-size: 42px;
+    font-family: Golos Text,sans-serif;
+    color: #272657;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(10px);
+}
+.processTitle2.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.processText{
+    margin-top: -20px;
+    font-size: 20px;
+    font-family: Golos Text,sans-serif;
+    color: #64607D;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(10px);
+}
+.processText.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+/* block2 */
+.processBlock2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding-inline: 0;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.processBlock3{
+    padding: 10px;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+.processBlock4{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    min-height: 592px;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-self: stretch;
+    background-image: url(https://aiclassic.liquid-themes.com/wp-content/uploads/2023/05/lines-s.png);
+    background-position: 0px 5%;
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+
+}
+/* block5 */
+.processSpan1{
+    margin-top: -230px;
+    position: absolute;
+    margin-left: 30px;
+    color: #1210120C;
+    font-family: Golos Text,sans-serif;
+    font-size: 200px;
+}
+.processBlock5{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(10px);
+    align-self: flex-end;
+}
+.processBlock5.active{
+    transform: translateX(0);
+    opacity: 1;
+    flex-direction: column;
+    display: flex;
+}
+.processMinBlock1{
+    margin-top: 50px;
+}
+.processTitle3{
+    font-size: 24px;
+    color: #272657;
+    font-family: Golos Text,sans-serif;
+}
+.processText1{
+    font-size: 16px;
+    font-family: Golos Text,sans-serif;
+    color: #64607D;
+    width: 300px;
+}
+/* block6 */
+.processSpan2{
+    margin-top: -210px;
+    margin-left: 120px;
+    position: absolute;
+    color: #1210120C;
+    font-family: Golos Text,sans-serif;
+    font-size: 200px;
+}
+.processBlock6{
+    align-self: center;
+    margin-top: 90px;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(10px);
+}
+.processBlock6.active{
+    transform: translateX(0);
+    opacity: 1;
+    flex-direction: column;
+    display: flex;
+}
+.processTitle4{
+    font-size: 24px;
+    color: #272657;
+    font-family: Golos Text,sans-serif;
+}
+.processText2{
+    font-size: 16px;
+    font-family: Golos Text,sans-serif;
+    color: #64607D;
+    width: 300px;
+}
+/* block7 */
+.processSpan3{
+    margin-top: -180px;
+    margin-left: 20px;
+    position: absolute;
+    color: #1210120C;
+    font-family: Golos Text,sans-serif;
+    font-size: 200px;
+}
+.processBlock7{
+    margin-top: 10px;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(10px);
+    align-self: flex-start;
+}
+.processBlock7.active{
+    transform: translateX(0);
+    opacity: 1;
+    flex-direction: column;
+    display: flex;
+}
+.processTitle5{
+    font-size: 24px;
+    color: #272657;
+    font-family: Golos Text,sans-serif;
+}
+.processText3{
+    font-size: 16px;
+    font-family: Golos Text,sans-serif;
+    color: #64607D;
+    width: 300px;
+}
+
+@media(max-width:1150px){
+.processBlock4 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 592px;
+    height: 100%;
+    width: auto;
+    justify-content: space-between;
+    align-self: stretch;
+    background-image:none;
+    background-position:none;
+    background-repeat: none;
+    background-size: none;
+}
+.processBlock5 {
+    align-self:normal;
+    width: auto;
+}
+.processBlock7 {
+    align-self:normal;
+    width: auto;
+}
+.processBlock6 {
+    width: auto;
+    align-self: normal;
+}
+.processBlock3 {
+    width: auto;
+}
+.processSpan2 {
+    margin-left: 130px;
+}
+.processSpan3 {
+    margin-left: 60px;    
+}
+.processSpan1 {
+    margin-left: 20px;
+}
+.processText1 {
+    width: auto;
+}
+.processText2 {
+    width: auto;
+}
+.processText3 {
+    width: auto;
+}
+}
