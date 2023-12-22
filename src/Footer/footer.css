@@ -303,6 +303,9 @@
         margin-top: 87px;
        }
        .footerUpt {
-        padding-left: 0;
+        padding-left: 8px;
+       }
+       .footerSpan11{
+        font-size: 17px;
        }
 }

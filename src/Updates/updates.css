@@ -310,6 +310,15 @@
     margin-top: -365px;
     margin-bottom: 100px;
 }
+.updatesSpan1 {
+  font-size: 15px;
+}
+.updatesSpan2 {
+  font-size: 15px;
+}
+.updatesSpan3 {
+  font-size: 15px;
+}
 }
 
 @media(max-width:370px){
