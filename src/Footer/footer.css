@@ -291,6 +291,9 @@
     .footerBlock7 {
         margin-top: 65px;
        }
+    .footerBtn1 {
+        font-size: 11px;
+    }
 }
 @media(max-width:399px){
     .footerBlock6 {
